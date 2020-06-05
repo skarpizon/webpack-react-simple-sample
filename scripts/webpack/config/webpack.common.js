@@ -52,7 +52,7 @@ export default () => {
     plugins: [
       new HtmlWebpackPlugin({
         template: './static/index.html',
-        title: 'Изучаем вебпак!',
+        title: 'Simple webpack package',
         favicon: './static/favicon.ico'
       }),
       new DefinePlugin({
